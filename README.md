@@ -7,4 +7,4 @@ This project is about the parallel programming and optimaztion the 4D convolutio
 - **Shared Memory convolution**
 - **Weight matrix (kernel values) in constant memory**
 
-We also tested different combinations of **TILE_WIDTH** and **BLOCK_SIZE**. And the final Op time is 0.092 + 0.193 = 0.285, which is almost 2 times faster than before.
+We also tested different combinations of **TILE_WIDTH** and **BLOCK_SIZE** on each method. And the final operation time is 0.092 + 0.193 = 0.285, which is almost 2 times faster than before.
